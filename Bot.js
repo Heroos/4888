@@ -5,7 +5,7 @@ const client = new Discord.Client();
 
 	bot.user.setStatus(dmd);
 
-	bot.user.setGame('لا اله الا الله محمد رسول الله, 'https://www.twitch.tv/');
+	bot.user.setGame('لا اله الا الله محمد رسول الله, 'https://www.twitch.tv/Hello');
 
 });
 
