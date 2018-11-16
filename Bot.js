@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+const client = new Discord.Client();
 
 module.exports.run = (client, message, args) => {
 	var prefix = "$";
@@ -17,6 +18,8 @@ module.exports.run = (client, message, args) => {
     .setColor("#7289DA")
     .setDescription(':white_check_mark: You sucessfully changed streaming status');
   message.channel.send({ embed });
-}};
+    });
+}
+
 
 client.login(process.env.BOT_TOKEN);
